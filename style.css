@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-violet:#504178;
+    --color-fiolet:#4C3D74;
+    --background-backifiolet:#A387C4;
+    --color-plus: #4D3E75;
+}
+
+.container {
+    width: 86%;
+    margin: 0 auto;
+}
+h2 {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    color: var(--color-violet);
+    margin-top: 168px;
+    font-family: Futura;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.menu {
+    color: var(--color-fiolet);
+    margin-top: 46px;
+}
+.menu span {
+    display: inline-block;
+    padding-top: 14px;
+}
+.menu p {
+    padding-top: 14px;
+    color: var(--color-plus);
+}
+.menu_one {
+    margin-top: 21px;
+    color: var(--color-fiolet);
+    border-top: 3px solid var(--color-fiolet);
+    display: flex;
+    justify-content: space-between;
+}
+.menu_one span {
+    display: inline-block;
+    padding-top: 14px;
+} 
+.menu_one p {
+    padding-top: 14px;
+    color: var(--color-plus);
+}
+.last_menu {
+    margin-top: 21px;
+    padding-bottom: 19px;
+    color: var(--color-fiolet);
+    border-top: 3px solid var(--color-fiolet);
+    border-bottom: 3px solid var(--color-fiolet);
+    display: flex;
+    justify-content: space-between;
+}
+.last_menu span {
+    display: inline-block;
+    padding-top: 14px;
+}
+.last_menu p {
+    padding-top: 14px;
+    color: var(--color-plus);
+}
+.bottom_container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.btn {
+    width: 245px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--background-backifiolet);  
+}
+.btn_text {
+    font-family: Futura;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+}
+.color_text {
+    display: inline-block;
+    font-family: Futura;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-fiolet);
+    margin-left: 50px;
+    width: 400px;
+}
+.pic {
+     padding-right: 100px;
+}
+.woman_small {
+    display: none;
+}
